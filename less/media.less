@@ -1,0 +1,46 @@
+//out: ../css/media.css
+
+
+@media screen and (max-width:1024px) {
+
+    section.menu_list {
+        .holder {
+            flex-wrap: wrap;
+            justify-content: center;
+
+            .item {}
+        }
+    }
+}
+
+@media screen and (max-width:700px) {
+    section.contacts {
+        .holder {
+            flex-direction: column-reverse;
+
+            .map {
+                max-width: none;
+                margin-top: 40px;
+            }
+
+            .info {
+                margin: 0 auto;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:375px) {
+    header {
+        .holder {
+            nav {
+                a {
+                    padding: 0 10px;
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+
+
+}
